@@ -6,13 +6,14 @@
 
 $font-primary: 'Montserrat', sans-serif;
 
-$color-background: #222831;
+$color-background: #1c2025;
 $color-secondary: #393E46;
 $color-accent: #FFD369;
 $text-primary: #EEEEEE;
 
 * {
   font-family: $font-primary;
+  color: $text-primary;
   background-color: $color-background;
   margin: 0;
   padding: 0;

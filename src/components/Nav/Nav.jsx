@@ -17,6 +17,11 @@ const Nav = () => {
         </li>
         Contact
       </ul>
+      <div className="nav__hamburger">
+        <div className="nav__hamburger--line nav__hamburger--top"></div>
+        <div className="nav__hamburger--line nav__hamburger--middle"></div>
+        <div className="nav__hamburger--line nav__hamburger--bottom"></div>
+      </div>
     </nav>
 
   )

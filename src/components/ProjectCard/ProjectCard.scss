@@ -1,0 +1,11 @@
+@use "../../assets/styles/variables"as *;
+@use "../../assets/styles/mixins" as *;
+
+.project-card {
+
+  &__banner {
+    height: 40vh;
+    width: 95%;
+    background-color: $color-accent;
+  }
+}

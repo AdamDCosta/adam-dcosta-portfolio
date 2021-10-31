@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.scss";
 import WorkButton from "../WorkButton/WorkButton";
 
@@ -15,9 +16,14 @@ const Header = () => {
         with _nology in order to become a web developer in the near future.
         Please see my recent projects below.
       </p>
-      <div className="header__button">
-        <WorkButton/> 
-      </div>
+      <Link
+        to="/adam-dcosta-portfolio/projects"
+        style={{ textDecoration: "none" }}
+      >
+        <div className="header__button">
+          <WorkButton />
+        </div>
+      </Link>
     </header>
   );
 };

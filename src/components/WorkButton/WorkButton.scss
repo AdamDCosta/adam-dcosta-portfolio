@@ -1,0 +1,18 @@
+@use "../../assets/styles/variables"as *;
+@use "../../assets/styles/mixins" as *;
+
+.work-button {
+  background-color: $color-accent;
+  color: $color-background;
+  border: none;
+  width: 70%;
+  height: 10vh;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+.work-button:hover {
+  cursor: pointer;
+  background-color: $color-secondary;
+  color: $color-accent;
+}

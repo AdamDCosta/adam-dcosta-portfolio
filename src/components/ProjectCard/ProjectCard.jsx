@@ -5,6 +5,8 @@ const ProjectCard = (props) => {
 
   const { project } = props;
 
+  const background = project.color;
+
   return (
     <article className="project-card">
       <h3 className="project-card__title">{project.title}</h3>

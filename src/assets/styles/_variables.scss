@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+$font-primary: 'Montserrat', sans-serif;
 
 $color-background: #222831;
 $color-secondary: #393E46;
 $color-accent: #FFD369;
 $text-primary: #EEEEEE;
+
+* {
+  font-family: $font-primary;
+  background-color: $color-background;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

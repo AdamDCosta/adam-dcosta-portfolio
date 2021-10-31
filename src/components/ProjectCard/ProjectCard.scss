@@ -12,23 +12,40 @@
 
   &__banner {
     height: 50vh;
-    width: 95%;
+    width: 100%;
     background-color: $color-accent;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px;
+    flex-direction: column;
+
+
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 10px;
+
+    }
 
 
     &--desc {
-      height: 95%;
-      width: 50%;
       background-color: transparent;
       color: $color-secondary;
+      height: 50%;
+      width: 90%;
+
+      @include tablet {
+        height: 95%;
+        width: 50%;
+
+      }
     }
 
     &--img {
-      height: 95%;
+      height: 50%;
+
+      @include tablet {
+        height: 95%;
+      }
 
     }
   }

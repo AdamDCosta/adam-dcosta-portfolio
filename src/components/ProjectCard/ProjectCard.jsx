@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
       <h3 className="project-card__title">{project.title}</h3>
       <p>preview</p>
       <p>code</p>
-      <div className="project-card__banner">
+      <div className="project-card__banner" style={{backgroundColor: background}}>
         <p className="project-card__banner--desc">{project.description}</p>
         <img className="project-card__banner--img" src={project.image} alt={project.name} />
       </div>

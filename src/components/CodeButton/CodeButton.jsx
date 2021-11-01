@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
+import "./CodeButton.scss";
 
-const CodeButton = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const CodeButton = (props) => {
 
-export default CodeButton
+  const { buttonText } = props;
+
+  return <button className="code-button">{buttonText}</button>;
+};
+
+export default CodeButton;

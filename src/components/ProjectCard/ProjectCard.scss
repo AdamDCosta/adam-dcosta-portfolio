@@ -2,16 +2,33 @@
 @use "../../assets/styles/mixins" as *;
 
 .project-card {
-  height: 90vh;
-  padding: 10px;
+  
+  padding: 20px 10px;
   display: grid;
   grid-template-rows: repeat(3), auto;
   border-top: 1px solid $text-primary;
+  max-width: 1200px;
+  
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    
+    :nth-child(1) {
+      margin-right: 5px;
+    }
+  }
 
   &__banner {
     
     padding: 10px;
     width: 100%;
+    max-height: 50vh;
     background-color: $color-accent;
     display: flex;
     flex-direction: column;
@@ -25,6 +42,8 @@
       padding: 10px;
     }
 
+    
+
     &--img {
       width: 75%;
       margin-bottom: 10px;
@@ -36,9 +55,9 @@
     }
 
     &--desc {
-      background-color: transparent;
+      background-color: rgba($color-background, 0.1);
       color: $color-background;
-      height: 40%;
+      padding: 10px;
       width: 90%;
 
       @include tablet {
@@ -47,5 +66,18 @@
       }
     }
 
+  }
+
+  &__tech-stack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    &--code {
+      background-color: $color-secondary;
+      padding: 10px 15px;
+
+    }
   }
 }

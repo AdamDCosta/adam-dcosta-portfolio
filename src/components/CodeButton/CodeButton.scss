@@ -1,2 +1,15 @@
 @use "../../assets/styles/variables"as *;
 @use "../../assets/styles/mixins" as *;
+
+.code-button {
+  background-color: $color-secondary;
+  border: none;
+  color: $text-primary;
+  padding: 10px 15px;
+  width: 100px;
+}
+
+.code-button:hover {
+  background-color: $text-primary;
+  color: $color-secondary;
+}

@@ -11,6 +11,8 @@ const FeaturedProjects = () => {
     return <ProjectCard key={project.title + (index + 1)} project={project} />;
   });
 
+  
+
   return (
     <section className="featured-projects">
       <h2 className="featured-projects__title">Work</h2>

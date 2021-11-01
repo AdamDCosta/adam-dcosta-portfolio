@@ -1,2 +1,17 @@
 @use "../../assets/styles/variables"as *;
 @use "../../assets/styles/mixins" as *;
+
+.featured-projects {
+  padding: 10px;
+
+  &__title {
+    padding: 10px;
+  }
+
+  &__intro {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+
+}

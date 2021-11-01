@@ -13,8 +13,8 @@ const ProjectCard = (props) => {
       <p>preview</p>
       <p>code</p>
       <div className="project-card__banner" style={{backgroundColor: background}}>
-        <p className="project-card__banner--desc">{project.description}</p>
         <img className="project-card__banner--img" src={project.image} alt={project.name} />
+        <p className="project-card__banner--desc">{project.description}</p>
       </div>
       <p>Tech Stack</p>
     </article>

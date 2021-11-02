@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Punk API",
     image: "https://adamdcosta.github.io/My-portfolio/assets/project-images/punk-api.png",
-    description: "A web application built in React using the Brewdog Punk API. It has search and filter functionality. It has the fetch inside a useEffect taking in the search term and filter states as the dependencies. I used routing and useParams so that each beer tile routes though to an individual page with more information.",
+    description: "A web application built in React using the Brewdog Punk API. It has search and filter functionality. The fetch is inside a useEffect taking in the search term and filter states as the dependencies. I used routing and useParams so that each beer tile routes though to an individual page with more information.",
     techStack: ["React", "HTML", "SCSS", "Javascript"],
     preview: "https://adamdcosta.github.io/beers-api/",
     code: "https://github.com/AdamDCosta/beers-api",

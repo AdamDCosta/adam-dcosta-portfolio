@@ -17,8 +17,7 @@ const FeaturedProjects = () => {
     <section className="featured-projects">
       <h2 className="featured-projects__title">Work</h2>
       <p className="featured-projects__intro">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt error
-        fuga quas.
+        Please see my recent projects below. These were all built during my time on the _nology web development course.
       </p>
       {projectsListJSX}
     </section>

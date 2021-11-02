@@ -9,19 +9,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  
 
-  &__links {
-
-    display: none;
-
-    @include tablet {
-      display: flex;
-      justify-content: space-evenly;
-      list-style: none;
-      font-weight: 100;
-      width: 50%;
-    }
-  }
+  
 
   &__hamburger:hover {
     cursor: pointer;

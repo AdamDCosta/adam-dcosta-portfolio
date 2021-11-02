@@ -16,8 +16,8 @@ const ProjectCard = (props) => {
     <article className="project-card">
       <h3 className="project-card__title">{project.title}</h3>
       <div className="project-card__buttons">
-        <CodeButton buttonText="Preview"/>
-        <CodeButton buttonText="Code"/>
+        <CodeButton buttonText="Preview" buttonLink={project.preview}/>
+        <CodeButton buttonText="Code" buttonLink={project.code}/>
       </div>
       <div className="project-card__banner" style={{backgroundColor: background}}>
         <img className="project-card__banner--img" src={project.image} alt={project.name} />

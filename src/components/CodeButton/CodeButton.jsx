@@ -3,9 +3,9 @@ import "./CodeButton.scss";
 
 const CodeButton = (props) => {
 
-  const { buttonText } = props;
+  const { buttonText, buttonLink } = props;
 
-  return <button className="code-button">{buttonText}</button>;
+  return <a href={buttonLink}><button className="code-button">{buttonText}</button></a> ;
 };
 
 export default CodeButton;

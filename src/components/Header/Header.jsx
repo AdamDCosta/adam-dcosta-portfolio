@@ -21,7 +21,7 @@ const Header = () => {
         style={{ textDecoration: "none" }}
       >
         <div className="header__button">
-          <WorkButton />
+          <WorkButton viewButtonText="View My Work"/>
         </div>
       </Link>
     </header>

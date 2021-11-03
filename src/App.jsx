@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import FeaturedProjects from './components/FeaturedProjects/FeaturedProjects';
+import About from './components/About/About';
 
 const App = () => {
   return (
@@ -15,6 +16,9 @@ const App = () => {
           </Route>
           <Route path="/adam-dcosta-portfolio/projects">
             <FeaturedProjects />
+          </Route>
+          <Route path="adam-dcosta-portfolio/about">
+            <About />
           </Route>
           
         </Switch>

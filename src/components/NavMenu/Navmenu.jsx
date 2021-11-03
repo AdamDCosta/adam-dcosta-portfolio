@@ -19,9 +19,11 @@ const Navmenu = (props) => {
             Work
           </li>
         </Link>
-        <li>
-          About
-        </li>
+        <Link to="/adam-dcosta-portfolio/about" style={{textDecoration: "none"}} onClick={toggleNav}>
+          <li>
+            About
+          </li>
+        </Link>
         <li>
           Contact
         </li>

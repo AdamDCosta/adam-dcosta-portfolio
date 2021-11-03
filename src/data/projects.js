@@ -7,7 +7,7 @@ export const projects = [
     techStack: ["React", "HTML", "SCSS", "Javascript"],
     preview: "https://adamdcosta.github.io/beers-api/",
     code: "https://github.com/AdamDCosta/beers-api",
-    color: "#FF4C29"
+    color: "#029bc8"
   },
   {
     id: 2,

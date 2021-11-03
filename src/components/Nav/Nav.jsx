@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Nav.scss";
 import Navmenu from "../NavMenu/Navmenu";
+import DesktopNav from "../DesktopNav/DesktopNav";
 
 const Nav = () => {
 
@@ -14,6 +15,7 @@ const Nav = () => {
     <nav className="nav">
       <h2 className="nav__heading">Adam D'Costa</h2>
       {showNav && <Navmenu toggleNav={toggleNav}/>}
+      <DesktopNav />
       <div className="nav__hamburger" onClick={toggleNav}>
         <div className="nav__hamburger--line nav__hamburger--top"></div>
         <div className="nav__hamburger--line nav__hamburger--middle"></div>

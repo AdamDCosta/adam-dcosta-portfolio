@@ -1,2 +1,26 @@
 @use "../../assets/styles/variables" as *;
 @use "../../assets/styles/mixins" as *;
+
+
+.nav-desktop {
+
+
+  display: none;
+  width: 50%;
+  height: 90%;
+
+  @include tablet {
+    display: block;
+  }
+
+  &__links {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $text-primary;
+    font-weight: 100;
+    background-color: transparent;
+    list-style: none;
+  }
+}

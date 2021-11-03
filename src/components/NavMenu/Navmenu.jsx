@@ -7,8 +7,8 @@ const Navmenu = (props) => {
   const { toggleNav } = props;
   
   return (
-    <div>
-      <ul className="nav__links" >
+    <div className="nav-mobile">
+      <ul className="nav-mobile__links" >
         <Link to="/" style={{textDecoration: "none"}}>
           <li>
             Home
@@ -27,9 +27,9 @@ const Navmenu = (props) => {
         </li>
       </ul>
 
-      <div className="nav__cross" onClick={toggleNav}>
-        <div className="nav__cross--line nav__cross--top"></div>
-        <div className="nav__cross--line nav__cross--bottom"></div>
+      <div className="nav-mobile__cross" onClick={toggleNav}>
+        <div className="nav-mobile__cross--line nav-mobile__cross--top"></div>
+        <div className="nav-mobile__cross--line nav-mobile__cross--bottom"></div>
       </div>
 
     </div>

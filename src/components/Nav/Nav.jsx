@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <nav className="nav">
       <h2 className="nav__heading">Adam D'Costa</h2>
-      {showNav && <Navmenu />}
+      {showNav && <Navmenu toggleNav={toggleNav}/>}
       <div className="nav__hamburger" onClick={toggleNav}>
         <div className="nav__hamburger--line nav__hamburger--top"></div>
         <div className="nav__hamburger--line nav__hamburger--middle"></div>

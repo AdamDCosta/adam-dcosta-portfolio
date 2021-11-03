@@ -1,7 +1,7 @@
 @use "../../assets/styles/variables"as *;
 @use "../../assets/styles/mixins" as *;
 
-.nav__links {
+.nav-mobile {
 
   position: fixed;
   top: 0;
@@ -9,34 +9,63 @@
   right: 0;
   bottom: 0;
   z-index: 5;
-  background-color: $color-background;
-  color: $text-primary;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  list-style: none;
 
+  &__links {
 
-
-  @include tablet {
-    
+    background-color: $color-background;
+    color: $text-primary;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     list-style: none;
-    font-weight: 100;
-    width: 50%;
+  
+  
+  
+    @include tablet {
+      
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      font-weight: 100;
+      width: 50%;
+    }
+
+    li {
+      text-decoration: none;
+    }
   }
 
-  li {
-    text-decoration: none;
-  }
-}
 
-.nav__cross {
 
-  &--top {
-    transform: rotate(45);
+  &__cross {
+  
+    height: 10%;
+    aspect-ratio: 1;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+
+    
+
+    &--line {
+      width: 100%;
+      height: 3px;
+      background-color: $text-primary;
+      transition: 0.3s all ease;
+
+    }
+    
+    &--top {
+      transform: rotateY(45);
+    }
   }
+
 }

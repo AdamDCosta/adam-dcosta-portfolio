@@ -17,7 +17,7 @@ const App = () => {
           <Route path="/adam-dcosta-portfolio/projects">
             <FeaturedProjects />
           </Route>
-          <Route path="adam-dcosta-portfolio/about">
+          <Route path="/adam-dcosta-portfolio/about">
             <About />
           </Route>
           

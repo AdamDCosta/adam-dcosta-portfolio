@@ -20,7 +20,7 @@
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-  
+    position: relative;
   
   
     @include tablet {
@@ -41,20 +41,20 @@
 
   &__cross {
   
-    height: 10%;
+    height: 50px;
+    width: 50px;
     aspect-ratio: 1;
     position: fixed;
-    top: 10px;
-    right: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    top: 40px;
+    right: 20px;
     background-color: transparent;
     cursor: pointer;
-
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
     
 
+  
     &--line {
       width: 100%;
       height: 3px;
@@ -64,8 +64,18 @@
     }
     
     &--top {
-      transform: rotateY(45);
+      transform: rotate(45deg) translateY(80%);
+      
+    }
+
+    &--middle {
+      display: none;
+    }
+
+    &--bottom {
+      transform: rotate(135deg) translateY(50%);
     }
   }
 
+  
 }

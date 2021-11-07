@@ -5,7 +5,6 @@ import WorkButton from '../WorkButton/WorkButton';
 
 const About = () => {
 
-  console.log("working")
 
   return (
     <section className="about">
@@ -21,7 +20,7 @@ const About = () => {
         </p>
         <img src={Headshot} alt="profile" className="about__profile--photo"/>
         <div className="about__profile--button">
-          <WorkButton viewButtonText="View My CV" />
+          <WorkButton viewButtonText="Contact Me" />
         </div>
       </div>
 

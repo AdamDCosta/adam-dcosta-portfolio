@@ -21,7 +21,12 @@ const DesktopNav = () => {
         >
           <li>About</li>
         </Link>
-        <li>Contact</li>
+        <Link
+          to="/adam-dcosta-portfolio/contact"
+          style={{ textDecoration: "none" }}
+        >
+          <li>Contact</li>
+        </Link>
       </ul>
     </div>
   );

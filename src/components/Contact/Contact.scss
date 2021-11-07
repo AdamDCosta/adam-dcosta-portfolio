@@ -1,0 +1,42 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.contact {
+
+  height: 90vh;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 20px;
+  background-color: $color-background;
+  color: $text-primary;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    color: $text-primary;
+    padding: 20px;
+  }
+
+  &__links {
+    height: 70vh;
+    border-top: 1px solid $text-primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+    &--icon:hover {
+      filter: opacity(50%);
+    }
+
+    &--button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  
+}
+

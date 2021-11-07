@@ -4,6 +4,7 @@ import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import FeaturedProjects from './components/FeaturedProjects/FeaturedProjects';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 const App = () => {
   return (
@@ -19,6 +20,9 @@ const App = () => {
           </Route>
           <Route path="/adam-dcosta-portfolio/about">
             <About />
+          </Route>
+          <Route path="/adam-dcosta-portfolio/contact">
+            <Contact />
           </Route>
           
         </Switch>

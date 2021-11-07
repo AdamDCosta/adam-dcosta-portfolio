@@ -24,9 +24,11 @@ const Navmenu = (props) => {
             About
           </li>
         </Link>
-        <li>
-          Contact
-        </li>
+        <Link to="/adam-dcosta-portfolio/contact" style={{textDecoration: "none"}} onClick={toggleNav}>
+          <li>
+            Contact
+          </li>
+        </Link>
       </ul>
 
       <div className="nav-mobile__cross" onClick={toggleNav}>

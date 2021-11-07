@@ -20,7 +20,9 @@ const About = () => {
           After 8 years of working in bookselling, a desire to build on new skills learnt during lockdown lead me to the decision to retrain and start a new career by enrolling on the twelve-week software development course with _nology. The course gave me the confidence that I've made the right decision to change career; that I relish the prospect of building something that is used by other people and has an impact on their lives. I’m a quick learner with a customer-focused, flexible skillset developed in previous roles, as well as experience working in teams. I'm looking forward to starting my first role in tech.
         </p>
         <img src={Headshot} alt="profile" className="about__profile--photo"/>
-        <WorkButton viewButtonText="View My CV" />
+        <div className="about__profile--button">
+          <WorkButton viewButtonText="View My CV" />
+        </div>
       </div>
 
     </section>

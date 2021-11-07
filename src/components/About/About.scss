@@ -11,12 +11,45 @@
   display: flex;
   flex-direction: column;
 
+  &__intro {
+
+    &--title {
+      padding-bottom: 10px;
+    }
+
+    &--hello {
+      margin-bottom: 20px;
+      line-height: 1.2;
+      font-size: 1.2rem;
+  
+      @include tablet {
+        line-height: 1.5;
+      }
+    }
+  }
+
+
+
   &__profile {
     border-top: 1px solid $text-primary;
     width: 100%;
+    padding: 10px 10px;
+    
+
+    &--text {
+      background-color: transparent;
+    }
 
     &--photo {
-      width: 90%;
+      width: 100%;
+      margin: 10px 0;
     }
+
+    &--button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
   }
 }

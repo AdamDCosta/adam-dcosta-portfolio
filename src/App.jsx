@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import FeaturedProjects from './components/FeaturedProjects/FeaturedProjects';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Skills from './components/Skills/Skills';
 
 const App = () => {
   return (
@@ -17,6 +18,9 @@ const App = () => {
           </Route>
           <Route path="/adam-dcosta-portfolio/projects">
             <FeaturedProjects />
+          </Route>
+          <Route path="/adam-dcosta-portfolio/skills">
+            <Skills />
           </Route>
           <Route path="/adam-dcosta-portfolio/about">
             <About />

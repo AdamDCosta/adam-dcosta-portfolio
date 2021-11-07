@@ -22,5 +22,12 @@
     font-weight: 100;
     background-color: transparent;
     list-style: none;
+
+  
+
+    &--item:hover {
+      color: $color-accent;
+      border-bottom: 1px solid $color-accent;
+    }
   }
 }

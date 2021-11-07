@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Nav.scss";
 import Navmenu from "../NavMenu/Navmenu";
 import DesktopNav from "../DesktopNav/DesktopNav";
@@ -13,7 +14,9 @@ const Nav = () => {
 
   return (
     <nav className="nav">
-      <h2 className="nav__heading">Adam D'Costa</h2>
+      <Link to="/" style={{textDecoration: "none"}}>
+        <h2 className="nav__heading">Adam D'Costa</h2>
+      </Link>
       {showNav && <Navmenu toggleNav={toggleNav}/>}
       <DesktopNav />
       <div className="nav__hamburger" onClick={toggleNav}>

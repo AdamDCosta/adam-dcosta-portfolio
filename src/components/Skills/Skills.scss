@@ -1,0 +1,42 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.skills {
+  height: 90vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__intro {
+    border-bottom: 1px solid $text-primary;
+
+    &--title {
+      padding-bottom: 20px;
+    }
+
+    &--info {
+      padding-bottom: 20px;
+    }
+  }
+
+  &__stack {
+    margin-top: 30px;
+    padding-top: 20px;
+    width: 80%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    &--cell {
+      display: flex;
+      justify-content: center;
+
+      img:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+}

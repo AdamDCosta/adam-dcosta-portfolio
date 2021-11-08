@@ -22,7 +22,9 @@ const Contact = () => {
           <img src={Email} alt="Email" className="contact__links--icon" />
         </a>
         <div className="contact__links--button">
-          <WorkButton viewButtonText="View My CV"/>
+          <a href="https://github.com/AdamDCosta/adam-dcosta-portfolio/blob/main/src/assets/images/Adam%20D'Costa%20CV%20Nov%202021.pdf">
+            <WorkButton viewButtonText="View My CV" />
+          </a>
         </div>
         <p>adam.dcosta@googlemail.com</p>
       </div>

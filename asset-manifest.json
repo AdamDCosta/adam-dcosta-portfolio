@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/adam-dcosta-portfolio/static/css/main.24ec425a.chunk.css",
+    "main.js": "/adam-dcosta-portfolio/static/js/main.5fb36351.chunk.js",
+    "main.js.map": "/adam-dcosta-portfolio/static/js/main.5fb36351.chunk.js.map",
+    "runtime-main.js": "/adam-dcosta-portfolio/static/js/runtime-main.9086dd20.js",
+    "runtime-main.js.map": "/adam-dcosta-portfolio/static/js/runtime-main.9086dd20.js.map",
+    "static/js/2.3161e2f3.chunk.js": "/adam-dcosta-portfolio/static/js/2.3161e2f3.chunk.js",
+    "static/js/2.3161e2f3.chunk.js.map": "/adam-dcosta-portfolio/static/js/2.3161e2f3.chunk.js.map",
+    "static/js/3.a94287d5.chunk.js": "/adam-dcosta-portfolio/static/js/3.a94287d5.chunk.js",
+    "static/js/3.a94287d5.chunk.js.map": "/adam-dcosta-portfolio/static/js/3.a94287d5.chunk.js.map",
+    "index.html": "/adam-dcosta-portfolio/index.html",
+    "static/css/main.24ec425a.chunk.css.map": "/adam-dcosta-portfolio/static/css/main.24ec425a.chunk.css.map",
+    "static/js/2.3161e2f3.chunk.js.LICENSE.txt": "/adam-dcosta-portfolio/static/js/2.3161e2f3.chunk.js.LICENSE.txt",
+    "static/media/CSS.a2bb6d7d.svg": "/adam-dcosta-portfolio/static/media/CSS.a2bb6d7d.svg",
+    "static/media/Email.6ad94eeb.svg": "/adam-dcosta-portfolio/static/media/Email.6ad94eeb.svg",
+    "static/media/Figma.42b3fc9c.svg": "/adam-dcosta-portfolio/static/media/Figma.42b3fc9c.svg",
+    "static/media/Github.2107d376.svg": "/adam-dcosta-portfolio/static/media/Github.2107d376.svg",
+    "static/media/HTML.09a1c723.svg": "/adam-dcosta-portfolio/static/media/HTML.09a1c723.svg",
+    "static/media/Headshot.f3cb54ea.jpg": "/adam-dcosta-portfolio/static/media/Headshot.f3cb54ea.jpg",
+    "static/media/JS.03857163.svg": "/adam-dcosta-portfolio/static/media/JS.03857163.svg",
+    "static/media/Java.0efd8fd2.svg": "/adam-dcosta-portfolio/static/media/Java.0efd8fd2.svg",
+    "static/media/LinkedIn.ac317a28.svg": "/adam-dcosta-portfolio/static/media/LinkedIn.ac317a28.svg",
+    "static/media/Postman.9fb5befb.svg": "/adam-dcosta-portfolio/static/media/Postman.9fb5befb.svg",
+    "static/media/React.7c5989d9.svg": "/adam-dcosta-portfolio/static/media/React.7c5989d9.svg",
+    "static/media/Sass.61238881.svg": "/adam-dcosta-portfolio/static/media/Sass.61238881.svg",
+    "static/media/Trello.27c717fb.svg": "/adam-dcosta-portfolio/static/media/Trello.27c717fb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9086dd20.js",
+    "static/js/2.3161e2f3.chunk.js",
+    "static/css/main.24ec425a.chunk.css",
+    "static/js/main.5fb36351.chunk.js"
+  ]
+}

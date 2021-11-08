@@ -24,7 +24,7 @@ export const projects = [
     title: "Javascript Calculator",
     image: "https://adamdcosta.github.io/My-portfolio/assets/project-images/JS%20calculator%20image.JPG",
     description: "This is a mobile-first calculator app written in vanilla Javascript and styled with SCSS. It was a project set during week 4 on the full-time _nology course. The aims were to take what we had learnt up to that point to produce a working calculator, implementing a mobile-first approach and to practice writing psuedocode.",
-    techStack: ["HTML", "SCSS", "Javascript"],
+    techStack: ["HTML", "SCSS", "Javascript", "Cypress"],
     preview: "https://adamdcosta.github.io/JS-Calculator/",
     code: "https://github.com/AdamDCosta/JS-Calculator", 
     color: "#4bcfee" 

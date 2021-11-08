@@ -15,10 +15,13 @@ const FeaturedProjects = () => {
 
   return (
     <section className="featured-projects">
-      <h2 className="featured-projects__title">Work</h2>
-      <p className="featured-projects__intro">
-        Please see my recent projects below. These were all built during my time on the _nology web development course.
-      </p>
+      <div className="featured-projects__intro">
+        <h2 className="featured-projects__intro--title">Work</h2>
+        <p className="featured-projects__intro--desc">
+          Please see my recent projects below. These were all built during my time on the _nology web development course.
+        </p>
+
+      </div>
       {projectsListJSX}
     </section>
   );

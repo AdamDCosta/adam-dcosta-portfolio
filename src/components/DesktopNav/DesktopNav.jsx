@@ -6,9 +6,6 @@ const DesktopNav = () => {
   return (
     <div className="nav-desktop">
       <ul className="nav-desktop__links">
-        <Link to="/" style={{ textDecoration: "none" }}>
-          <li className="nav-desktop__links--item">Home</li>
-        </Link>
         <Link
           to="/adam-dcosta-portfolio/projects"
           style={{ textDecoration: "none" }}

@@ -11,17 +11,28 @@
     justify-content: center;
   }
 
-  &__title {
-    padding: 10px;
-  }
-
   &__intro {
-    padding: 10px;
-    margin-bottom: 20px;
-    line-height: 1.2;
 
-    @include tablet {
-      line-height: 1.5;
+    width: 100%;
+
+    &--title, &--desc {
+      padding: 10px;
+  
+      @mixin tablet {
+        justify-self: left;
+        text-align: left;
+      }
+    }
+  
+   
+    &--desc {
+      margin-bottom: 20px;
+      line-height: 1.2;
+  
+      @include tablet {
+        line-height: 1.5;
+      }
     }
   }
+
 }

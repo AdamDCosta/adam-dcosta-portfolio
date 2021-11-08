@@ -22,12 +22,17 @@
     font-weight: 100;
     background-color: transparent;
     list-style: none;
+    padding: 10px 0;
 
-  
-
-    &--item:hover {
-      color: $color-accent;
-      border-bottom: 1px solid $color-accent;
+    
+    &--item {
+      line-height: 10vh;
     }
-  }
+    
+    &--item:hover {
+        color: $color-accent;
+        border-bottom: 3px solid $color-accent;
+      }
+    }
+    
 }

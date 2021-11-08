@@ -33,22 +33,52 @@
   &__profile {
     border-top: 1px solid $text-primary;
     width: 100%;
-    padding: 10px 10px;
+    padding: 30px 10px;
+
+    @include tablet {
+      height: 50vh;
+      max-height: 50vh;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 2fr 1fr;
+      
+    }
     
 
     &--text {
       background-color: transparent;
+      margin-top: 10px;
+      line-height: 1.5rem;
     }
 
     &--photo {
       width: 100%;
       margin: 10px 0;
+
+      @include tablet {
+        height: 95%;
+        width: auto;
+        margin-bottom: 0;
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+        justify-self: center;
+      }
     }
 
     &--button {
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @mixin tablet {
+        justify-self: center;
+      }
+    }
+
+    &--cell {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
     }
 
   }

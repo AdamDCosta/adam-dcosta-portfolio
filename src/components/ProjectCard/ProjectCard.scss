@@ -42,6 +42,10 @@
       padding: 10px;
     }
 
+    @include desktop {
+      max-height: 65vh;
+    }
+
     
 
     &--img {
@@ -56,10 +60,11 @@
     }
 
     &--desc {
-      background-color: rgba($color-background, 0.1);
+      background-color: transparent;
       color: $color-background;
       padding: 10px;
       width: 90%;
+      
 
       @include tablet {
         height: 95%;
@@ -76,13 +81,16 @@
 
   &__tech-stack {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    // justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    
 
     &--code {
       background-color: $color-secondary;
       padding: 10px 15px;
+      margin-bottom: 10px;
+      margin: 0 5px 10px 0;
 
       @include tablet {
         margin-right: 20px;

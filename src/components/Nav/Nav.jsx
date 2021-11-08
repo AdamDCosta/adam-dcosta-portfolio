@@ -14,7 +14,7 @@ const Nav = () => {
 
   return (
     <nav className="nav">
-      <Link to="/" style={{textDecoration: "none"}}>
+      <Link to="/adam-dcosta-portfolio" style={{textDecoration: "none"}}>
         <h2 className="nav__heading">Adam D'Costa</h2>
       </Link>
       {showNav && <Navmenu toggleNav={toggleNav}/>}

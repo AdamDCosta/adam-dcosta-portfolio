@@ -22,7 +22,11 @@ const Contact = () => {
           <img src={Email} alt="Email" className="contact__links--icon" />
         </a>
         <div className="contact__links--button">
-          <a className="contact__links--button-link" href=" https://adamdcosta.github.io/adam-dcosta-portfolio/assets/images/Adam%20D'Costa%20CV%20Nov%202021.pdf"> 
+          <a
+            className="contact__links--button-link"
+            href="https://github.com/AdamDCosta/adam-dcosta-portfolio/blob/main/src/assets/images/Adam%20D'Costa%20CV%20Nov%202021.pdf"
+            style={{ textDecoration: "none" }}
+          >
             <WorkButton viewButtonText="View My CV" />
           </a>
         </div>

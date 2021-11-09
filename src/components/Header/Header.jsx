@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
 import WorkButton from "../WorkButton/WorkButton";
+import LinkedIn from "../../assets/images/icons/LinkedIn.svg";
+import Github from "../../assets/images/icons/Github.svg";
+import CV from "../../assets/images/icons/CV.svg";
 
 const Header = () => {
   return (
@@ -12,18 +15,28 @@ const Header = () => {
         <span className="header__title--name"> Adam</span>
       </h1>
       <p className="header__desc">
-        Hi, I’m Adam and I’m currently undergoing a 12-week intensive course
-        with _nology in order to become a web developer in the near future.
-        Please see my recent projects below.
+        Hi, I’m Adam and I’m a junior full stack developer. Please see my recent
+        projects below.
       </p>
       <Link
         to="/adam-dcosta-portfolio/projects"
         style={{ textDecoration: "none" }}
       >
         <div className="header__button">
-          <WorkButton viewButtonText="View My Work"/>
+          <WorkButton viewButtonText="View My Work" />
         </div>
       </Link>
+      <div className="header__icons">
+        <a href="https://www.linkedin.com/in/adamdcosta/">
+          <img src={LinkedIn} alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/AdamDCosta">
+          <img src={Github} alt="Github" />
+        </a>
+        <a href="https://github.com/AdamDCosta/adam-dcosta-portfolio/blob/main/src/assets/images/Adam%20D'Costa%20CV%20Nov%202021.pdf">
+          <img src={CV} alt="CV" />
+        </a>
+      </div>
     </header>
   );
 };

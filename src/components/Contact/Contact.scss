@@ -36,10 +36,18 @@
       justify-content: center;
 
       &-link {
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
         text-decoration: none;
+
+        @include tablet {
+            width: 60%;
+        }
+
+        @include desktop {
+          width: 40%;
+        }
       }
     }
   }

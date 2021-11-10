@@ -8,7 +8,7 @@ const Navmenu = (props) => {
   return (
     <div className="nav-mobile">
       <ul className="nav-mobile__links">
-        <Link to="/" style={{ textDecoration: "none" }} onClick={toggleNav}>
+        <Link to="/adam-dcosta-portfolio" style={{ textDecoration: "none" }} onClick={toggleNav}>
           <li>Home</li>
         </Link>
         <Link

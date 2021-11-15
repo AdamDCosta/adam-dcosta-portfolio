@@ -4,14 +4,10 @@ import { projects } from "../../data/projects";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 const FeaturedProjects = () => {
-
-  console.log(projects);
-
+  
   const projectsListJSX = projects.map((project, index) => {
     return <ProjectCard key={project.title + (index + 1)} project={project} />;
   });
-
-  
 
   return (
     <section className="featured-projects">

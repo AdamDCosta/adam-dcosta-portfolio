@@ -5,8 +5,10 @@ import WorkButton from "../WorkButton/WorkButton";
 import LinkedIn from "../../assets/images/icons/LinkedIn.svg";
 import Github from "../../assets/images/icons/Github.svg";
 import CV from "../../assets/images/icons/CV.svg";
+import MyCV from "../../assets/images/Adam D'Costa CV.pdf";
 
 const Header = () => {
+
   return (
     <header className="header">
       <h1 className="header__title">
@@ -33,7 +35,7 @@ const Header = () => {
         <a href="https://github.com/AdamDCosta">
           <img src={Github} alt="Github" />
         </a>
-        <a href="https://github.com/AdamDCosta/adam-dcosta-portfolio/blob/main/src/assets/images/Adam%20D'Costa%20CV%20Nov%202021.pdf">
+        <a href={MyCV} target="_blank" rel="noreferrer">
           <img src={CV} alt="CV" />
         </a>
       </div>

@@ -14,10 +14,12 @@ const ProjectCard = (props) => {
 
   return (
     <article className="project-card">
-      <h3 className="project-card__title">{project.title}</h3>
-      <div className="project-card__buttons">
-        <CodeButton buttonText="Preview" buttonLink={project.preview}/>
-        <CodeButton buttonText="Code" buttonLink={project.code}/>
+      <div className="project-card__intro">
+        <h3 className="project-card__intro--title">{project.title}</h3>
+        <div className="project-card__intro--buttons">
+          <CodeButton buttonText="Preview" buttonLink={project.preview}/>
+          <CodeButton buttonText="Code" buttonLink={project.code}/>
+        </div>
       </div>
       <div className="project-card__banner" style={{backgroundColor: background}}>
         <img className="project-card__banner--img" src={project.image} alt={project.name} />

@@ -44,7 +44,7 @@ export const projects = [
     id: 4,
     title: "JS MORSE CODE TRANSLATOR",
     image: "https://adamdcosta.github.io/My-portfolio/assets/project-images/morse-translator.png",
-    description: "This is a morse code translator written in vanilla javascript. I implemented a TDD approaching - writing unit tests for my functions first and using Jest to run them. I created an object with english as the key and morse as the value.",
+    description: "This is a morse code translator written in vanilla javascript. I implemented a TDD approach - writing unit tests for my functions first and using Jest to run them. I then wrote the functions to pass the tests. I created an object with english as the key and morse as the value which I could then use for the translate function.",
     techStack: ["HTML", "SCSS", "Javascript", "Jest"],
     preview: "https://adamdcosta.github.io/Morse-Translator/",
     code: "https://github.com/AdamDCosta/Morse-Translator",

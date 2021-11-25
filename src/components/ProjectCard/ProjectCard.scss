@@ -8,19 +8,34 @@
   grid-template-rows: repeat(3), auto;
   border-top: 1px solid $text-primary;
   max-width: 1200px;
-  
 
-  &__title {
-    margin-bottom: 10px;
-  }
+  &__intro {
 
-  &__buttons {
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: 10px;
+    flex-direction: column;
     
-    :nth-child(1) {
-      margin-left: 5px;
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--title {
+      margin-bottom: 10px;
+
+      @include tablet {
+        font-size: 1.5rem;
+      }
+    }
+  
+    &--buttons {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+
+      :nth-child(2) {
+        margin-left: 5px;
+      }
     }
   }
 
@@ -43,7 +58,8 @@
     }
 
     @include desktop {
-      max-height: 65vh;
+      max-height: 50vh;
+      // max-height: 65vh;
     }
 
     
